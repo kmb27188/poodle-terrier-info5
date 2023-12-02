@@ -1,0 +1,47 @@
+/* This is a comment */
+
+@font-face {
+	font-family: 'robotoregular';
+	src: url('../fonts/Roboto_Open-webfont.eot');
+	src: url('../fonts/Roboto_Open-webfont.woff');
+}
+
+h2, h1{
+	color: #0097b2;
+	font-family: robotoregular, roboto, sans-serif; 
+	clear: left;
+	text-align: center
+}
+
+nav ul li{
+	color: #9900ff;
+	font-family: robotoregular, roboto, sans-serif;
+	font-size: 30px;
+	list-style-type: none; 
+	float: left;
+    margin: 18px;
+	position: relative;
+	left: 280px
+}
+
+p{
+	font-family: robotoregular, roboto, sans-serif;
+	font-size: 16px;
+	position: relative;
+	left: 700px;
+}
+
+nav ul li a{
+	color: #9900ff;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: pink;
+} 
+
+.image3{
+	float: left;
+	position: absolute;
+	top: 200px; left: 500px;
+} 
